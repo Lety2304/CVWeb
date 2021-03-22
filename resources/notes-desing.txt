@@ -1,0 +1,231 @@
+21 de Marzo del 2021.
+15 bibliotecas JavaScript que no deberías perder de vista
+Por campusMVP
+Avanza en tu carrera como desarrollador de la mano de los mejores »
+Aunque programar todo por uno mismo provoca una gran satisfacción, es conveniente superar el síndrome del "No inventado aquí" y sacar partido al código que tan generosamente han donado al bien común otros desarrolladores.
+
+En el mundo del desarrollo web Front-End existen infinidad de bibliotecas (mal llamadas "librerías") que nos permiten dotar de potentes funcionalidades a nuestras aplicaciones, sin apenas esfuerzo, mejorando el diseño, la funcionalidad o la experiencia de usuario.
+
+Existen miles de bibliotecas JavaScript. Hay vida más allá de jQuery y React, bibliotecas con las que ya estarás familiarizado y que están muy contrastadas. Aquí nos vamos a centrar en otras opciones y las vamos a agrupar por usos.
+
+Evidentemente en este artículo no vamos a revisarlas todas, e incluso seremos injustos con alguna que debería figurar en esta lista. Hemos descartado muchas porque es casi materialmente imposible comentarlas todas.
+
+Si consideras que hay alguna biblioteca que debe figurar aquí, te invitamos a que la incluyas en la sección de comentarios y que nos indiques por qué te gusta y para qué la usas.
+
+Sin más consideraciones, aquí va una lista que para nada pretende ser una lista exhaustiva ni completa, pero en la que seguro que encuentras alguna "perla" que desconocías y que te hará la vida más fácil.
+
+Bibliotecas JavaScript para gráficos y tablas
+- Chart.js
+Logo de ChartJS
+
+Chart.js es una solución sencilla de código abierto para pequeños proyectos y para aquellos casos en los que necesites crear gráficos de forma rápida. Incorpora 8 tipos de gráficos por defecto que luego puedes combinar entre sí como quieras. Además viene con muy buenas opciones de animación de serie.
+
+Esta biblioteca JavaScript para hacer representaciones gráficas es muy recomendable si lo que buscas es configurar un sistema sencillo, flexibilidad a la hora de trabajar y una documentación exhaustiva. Como contrapartida decir que su funcionalidad es más bien limitada. Chartist.js incorpora una funcionalidad similar aunque está basado en SVG y no en HTML5 canvas como Chartjs.
+
+En resumen, muchas personas recomiendan esta biblioteca para los gráficos de datos porque es fácil de configurar, fácil de personalizar y viene con una de las mejores documentaciones entre los proyectos de código abierto de este estilo.
+
+- D3.js
+Logo de D3.js
+
+D3.js (las siglas de Data-Driven Documents) es considerada como una de las bibliotecas de visualización JavaScript de código abierto más potentes. Su ecosistema incluye docenas de plugins y otras bibliotecas que se han creado sobre D3js. Por otro lado, cuenta con una comunidad muy activa y mucha documentación que te ayudará a empezar rápido.
+
+D3 cumple con los estándares web de W3C y soporta prácticamente todos los navegadores modernos. A pesar de que no incluye ningún tipo de gráfico prefabricado de serie, ofrece muchísimos ejemplos y funcionalidades muy útiles del tipo selecciones "Entrar y Salir", un proceso de depuración de errores sencillo y transiciones potentes.
+
+La industria Big Data está en pleno auge y como consecuencia, en paralelo, la visualización de datos crece en importancia. Existen muchísimas bibliotecas para hacer gráficas pero pocas destacan tanto como D3.js. Funciona con elementos SVG y canvas para renderizar gráficos, tablas y visualizaciones dinámicas en la web.
+
+Su uso es totalmente gratuito. Supone una forma muy avanzada de renderizar datos en el navegador y es muy recomendable echarle un vistazo para entender bien todo lo que ofrece.
+
+- Google Charts
+Logo de Google
+
+Google Charts te permite crear cualquier visualización: desde un gráfico de línea sencillo hasta complejos mapas arbolados. Incorpora una galería de gráficos ya hechos, varias herramientas de datos y muchas opciones de personalización. Basando los gráficos en HTML5 y SVG, esta librería garantiza compatibilidad multi-navegador y multi-plataforma. Para antiguas versiones de IE incluye VML.
+
+Gracias a su documentación detallada, los comentarios en el código e instrucciones paso-a-paso, la herramienta Google Charts puede ser una buena forma de iniciarse para cualquier persona que quiera crear gráficos con JavaScript. No obstante, dado que los archivos se suben desde los servidores de Google, tu app JavaScript web tiene que estar online para poder ver las gráficas.
+
+Lleva un tiempo medio "aparcada" por Google, pero sigue siendo una excelente opción, fácil de usar, potente y compatible con casi todo.
+
+Bibliotecas JavaScript relacionadas con aplicaciones (MVC, MVVM)
+En esta categoría entrarían Angular, React o Ember, pero como hemos dicho, vamos a ver otras tal vez menos conocidas pero igualmente interesantes.
+
+- Vue.js
+Logo de Vue.js
+
+En el contexto de frameworks front-end normalmente te encuentras ante dos opciones destacadas: Angular y React. Vue.js es otra opción que cada vez es más popular, habiendo explotado en el pasado año 2017, y que va ganando terreno a paso acelerado.
+
+Vue es un framework JavaScript de front-end basado en el patrón MVVM (modelo-vista-vistamodelo), alejándose de la típica arquitectura MVC (modelo-vista-controlador). Es algo engorroso a primera vista, pero la sintaxis es fácil una vez que le pillas el truco. Es una elección viable dentro de la guerra de frameworks de front-end, y merece la pena seguirle la pista.
+
+- Knockout
+Knockout
+
+¿Cómo? ¿Knockout a estas alturas? Pues sí... Aunque el proyecto fue tremendamente popular hace unos años y fue perdiendo terreno últimamente debido al "hype" de Angular o React, sigue siendo una excelente opción para trabajar con interfaces de usuario enlazadas a datos.
+
+Knockout es una implementación en JavaScript del patrón MVVM (modelo-vista-vistamodelo), con plantillas. Los principios subyacentes por lo tanto son:
+
+Separación clara entre el modelo de dominio, los componentes de la vista y los datos que se mostrarán.
+La presencia de una capa definida de código especializado para gestionar las relaciones entre los componentes de la vista.
+Esto último potencia las funcionalidades de gestión de eventos nativas del lenguaje JavaScript.
+
+Dichas funcionalidades racionalizan y simplifican la especificación de relaciones complejas entre componentes de la vista, que a cambio muestran la información de manera más responsiva y enriquecen la experiencia de usuario.
+
+Knockout se creó y se mantiene como proyecto de código abierto por Steve Sanderson, un empleado de Microsoft, pero como ha dicho el propio creador cuando se unió a la empresa "esto no es un producto de Microsoft".
+
+Bibliotecas JavaScript para animación, 3D y realidad virtual
+- Three.js
+Logo de Three.js
+
+Es una locura ver lo mucho que ha crecido la animación 3D desde los años 80 hasta día de hoy. Todos estamos familiarizados con películas de animación en 3D, pero la animación web va un paso más allá. Afortunadamente tenemos bibliotecas como Three.js abriendo camino para la animación 3D en la web.
+
+En su web dispones de acceso a decenas de ejemplos de Three.js en acción. Puedes crear fondos sensibles al movimiento, gráficos 3D personalizados, y elementos de interfaz dinámicos que usan efectos de animación 3D. Si tienes la motivación y el empuje suficiente, podrás crear cualquier efecto 3D con esta biblioteca.
+
+Es tal vez el mejor recurso para movimiento 3D en la web, y viene con muchos ejemplos para ayudarte a arrancar.
+
+- Create.js
+logo Create.js
+
+CreateJS no es una única biblioteca individual, sino que es un conjunto de bibliotecas diseñadas para cumplir con diferentes fines. Por ejemplo, Easel.js funciona con elementos HTML5 canvas mientras que Tweet.js te ayuda a crear interpolación de movimientos personalizada y animaciones para la web.
+
+Cada biblioteca dentro de esta colección sirve para hacer algo distinto, y proporciona funcionalidades modernas compatibles con los navegadores más populares. La pega es que la mayoría de estas bibliotecas JavaScript al estar tan especializadas, solo sirven para páginas web que necesiten una funcionalidad muy específica o especial. Lo mejor es que veas las demos que ofrece en la portada y que leas si página de iniciación para ver qué te puede ofrecer. Hay cosas muy interesantes...
+
+- GSAP - Greensock
+logo GSAP
+
+GSAP o GreenSock Animation Platform es una solución de animación avanzada y que es utilizada por muchas grandes empresas en todo el mundo para crear asombrosas animaciones interactivas sin mucho engorro. Según sus propios datos, es utilizada por más de 2 millones de webs y entre sus clientes están grandes firmas como Ford, Nike, Adobe, Microsoft, Samsung o Google entre otras.
+
+GSAP es sumamente compatible tanto con navegadores antiguos como con los nuevos, y también móviles. Entre las características principales están: compatibilidad SVG, capacidad de convertir cualquier elemento DOM en arrastrable, girable, desplazable a golpe de flick, y rápido rendimiento. Incorpora además rotación direccional, transfomación 3D, arquitectura modular para carga rápida y cero dependencias, entre otras muchas cosas.
+
+- Bounce.js
+logo bounce.js
+
+Bounce.js es una biblioteca de animación JavaScript muy cuidada que permite crear atractivas animaciones sobre CSS3 de forma extremadamente sencilla. Viene con 10 configuraciones de serie como girar, zumbar, gelatina, corre-caminos y otros, para generar fluidas animaciones para cualquier diseño web o proyecto de personalización.
+
+Esta biblioteca es totalmente gratuita y tiene licencia MIT. Es una buena opción en aquellos casos en los que no necesitas una larga lista de tipos de animación, o estás buscando experimentar algo nuevo o si quieres iniciarte con la animación en tus apps o diseños.
+
+- Animate.css
+logo Animate
+
+Animate.css es una biblioteca CSS (¡sin JavaScript!). Es muy fluida y te permite crear animaciones esmeradas para los objetos seleccionados. Ofrece 50 configuraciones de serie que se pueden aplicar a textos, formularios e imágenes usando CSS3. Debido a su pequeño tamaño de archivo, que es multi-navegador y su facilidad de uso, puede encajar perfectamente con proyectos móviles, páginas de inicio y demás sitios en los que la carga rápida y el rendimiento sean importantes.
+
+- WEBVR
+logo webvr
+
+Con todo el ruido que ha introducido en el sector todo lo relacionado con la realidad virtual y con todas las start-ups y desarrolladores trabajando en torno a la misma, no sorprende toparse con WebVR, una API JavaScript hecha para realidad virtual en navegadores e impulsada por Mozilla.
+
+Deriva de los dispositivos más populares de RV como Oculus Rift y Vive, pero aún está en unas fases relativamente tempranas.
+
+Si sientes curiosidad y quieres saber más sobre este proyecto puedes ir a la web oficial o visitar la página MozVR para obtener más información.
+
+Bibliotecas JavaScript para fecha y hora
+- Moment.js
+Logo de Moment.js
+
+Moment.js es una biblioteca para fechas simple y ligera que hace que analizar, manipular y formatear la fecha y hora se pueda hacer de forma sencilla y precisa. Es integrable con Twitter, es multi-idioma y tiene en cuenta todos los aspectos de fecha/hora a nivel internacional como calendarios, zonas horarias, etc... mediante una serie de plugins.
+
+Lo más importante es que elimina la necesidad usar el objeto fecha nativo de JavaScript, y facilita el proceso de análisis de datos complejos, reduciendo ostensiblemente la cantidad de código necesario para implementarlo.
+
+- Date-fns
+Logo de Date-fns
+
+Date-fns es un conjunto de herramientas avanzadas para la manipulación de la hora y la fecha en navegadores y en Node.js en el lado servidor.
+
+Ofrece más de 140 funcionalidades útiles que son fácilmente accesibles vía API. Gracias a su estructura modular te permite elegir solo aquellas funciones que necesitas para cada proyecto.
+
+Otras bibliotecas JavaScript
+- Math.js
+logo mathjs
+
+Math.js es una biblioteca de código abierto para navegadores, y los motores de Node.js. Viene con numerosas funciones y constantes, analizador de expresiones flexible, y soporte para grandes y números complejos, unidades, cadenas de caracteres, fracciones, matrices y computación simbólica.
+
+- Handsontable
+logo handsontable
+
+Handsontable es una biblioteca de hoja de cálculo JavaScript libre de engorros que permite crear aplicaciones web de primer nivel. Se puede ampliar y editar fácilmente con plugins de personalización.
+
+Ofrece una curva de aprendizaje corta y sencilla, una estructura modular muy práctica y una comunidad online muy activa. Esta biblioteca incluye 30 funcionalidades en su versión gratuita y más de una decena adicional en su versión de pago, para profesionales. Handsontable se usa para informes de ventas, planificación de trabajo, fusión de datos, edición de bbdd y otros muchos campos de aplicación.
+
+Fecha de publicación: 27 de diciembre de 2017
+
+Fuente: https://www.campusmvp.es/recursos/post/15-bibliotecas-javascript-que-no-deberias-perder-de-vista.aspx
+
+20 de Marzo del 2021.
+Traducir texto gratis en páginas web:
+
+  Servicios de traductores que se pueden usar gratis en blog o sitios web para traducir a otros idiomas, manual o automáticamente, con PHP o JavaScript.
+  Como traducir texto gratis en páginas web
+  Después de que Google desactivara su famoso y clásico servicio gratis del traductor para sitios web, los que no podemos el lujo de pagar hemos tenido que buscar otras alternativas.
+  En este artículo comparto algunos ejemplos.
+
+  Traducir contenido de páginas usando Yandex
+  Yandex el servicio ruso proporciona un servicio de traducción para sitios web gratis.
+  Se puede emplear de varias formas.
+  Podemos insertar un widget o usar su API gratis que proporciona varias opciones.
+  Para esto último es necesario registrarnos.
+
+  Traducir texto con Yandex
+  A continuación un ejemplo de cómo dar la opción de traducir un bloque de texto al inglés, presionando un botón.
+  Esta línea de texto se traduce desde el español al idioma inglés, usando el servicio gratis de Yandex.
+  Traducir
+
+  Código JavaScript y JQuery para traducir con Yandex
+  HTML
+  <div id="source">This is a chair</div>
+  <div id="output"></div>
+  <button id="translate" class="btn tw">Traducir</button>
+
+  CARGAR JQUERY
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+  JAVASCRIPT
+  <script>
+  var url = "https://translate.yandex.net/api/v1.5/tr.json/translate",
+      keyAPI = "API PERSONAL DE YANDEX";
+  document.querySelector('#translate').addEventListener('click', function() {
+      var xhr = new XMLHttpRequest(),
+  	 textAPI=$("#source").text();
+          data = "key="+keyAPI+"&text="+textAPI+"&lang=en";
+      xhr.open("POST",url,true);
+      xhr.setRequestHeader("Content-type","application/x-www-form-urlencoded");
+      xhr.send(data);
+      xhr.onreadystatechange = function() {
+          if (this.readyState==4 && this.status==200) {
+              var res = this.responseText;
+              var json = JSON.parse(res);
+              if(json.code == 200) {
+                  document.querySelector('#output').innerHTML = json.text[0];}
+              else {
+                  document.querySelector('#output').innerHTML = "Error Code: " + json.code;}
+          }}
+  }, false);
+  </script>
+
+  Traducir texto a otro idioma usando MyMemory
+  MyMemoryes un servicio de traducción gratis.
+  Para usarlo no es necesario ninguna API, solo incluir el texto a traducir y parámetros que indiquen los idiomas en una petición GET.
+  Se requiere que el texto sea escapado y lamentablemente existe la limitación de 500 bytes.
+
+  Ejemplo de petición GET a MyMemory
+  Para traducir al inglés el texto: "Esto es una mesa", usamos la siguiente dirección.
+  https://api.mymemory.translated.net/get?q=Esto es una mesa&langpair=es|en
+  Los parámetros "es|en" indican que se debe traducir del español al inglés.
+  Copia y pega la instrucción anterior en la barra de direcciones del navegador y presiona la tecla Enter.
+  La respuesta se recibe en formato JSON por lo que se debe decodificar con Javascript o PHP.
+  Lee más información en las Especificaciones técnicas del servicio.
+
+  Traducir texto con MyMemory y PHP
+  El servicio de MyMemory se puede usar de dos formas en páginas web: enviando la petición, recibiendo la respuesta y decodificándola con JavaScript o con PHP.
+  A continuación un ejemplo de cómo traducir un bloque de texto en español al inglés con PHP.
+  Texto a traducir:
+  "El servicio MyMemory es una alternativa libre y gratuita, para traducir texto entre varios idiomas de forma sencilla, cuando no se trata de gran cantidad de datos."
+  Respuesta:
+  The MyMemory service is a free alternative, to translate text between several languages easily, when it is not a large amount of data
+
+  Código PHP para traducir texto con MyMemory
+  <?php
+  $textt = 'Texto a traducir';
+  $json = file_get_contents('https://api.mymemory.translated.net/get?q='.urlencode($textt).'&langpair=es|en');
+  if (!empty($json)) {
+  $obj = json_decode($json);
+  echo $obj->responseData->translatedText;
+  }
+  ?>
+
+Fuente: https://norfipc.com/apuntes/traducir-texto-gratis-paginas-web.php
