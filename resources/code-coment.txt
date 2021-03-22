@@ -1,0 +1,126 @@
+
+<li class="list-group-item">CharJS</li>
+<li class="list-group-item">JStables</li>
+<li class="list-group-item">fpdf</li>
+<li class="list-group-item">PhpMailer</li>
+<li class="list-group-item">Headers vnd.ms-excel</li>
+• Minificador de código (JavaScript y Css).
+• Obfuscator Php.
+• APIS (firebase, whatsapp, labsmobile SMS, Google docs y Office).
+• Conocimientos básicos de .
+• Uso Pasarela de pago de Mercado pago.
+
+
+var ctx = document.getElementById('myChart');
+var myChart = new Chart(ctx, {
+    type: 'doughnut',
+    data: {
+        labels: ['PHP', 'Jquery', 'JavaScript', 'HTML', 'CSS', 'Visual Basic', 'Java', 'ActionScript'],
+        datasets: [{
+            label: 'Conocimiento',
+            data: [25, 15, 15, 15, 10, 5, 5, 5],
+            backgroundColor: [
+                'rgba(54, 162, 235, 0.5)',
+                'rgba(255, 99, 132, 0.5)',
+                'rgba(255, 198, 255, 0.5)',
+                'rgba(255, 206, 86, 0.5)',
+                'rgba(75, 192, 192, 0.5)',
+                'rgba(153, 102, 255, 0.5)',
+                'rgba(255, 159, 64, 0.5)',
+                'rgba(192, 192, 192, 0.5)'
+            ],
+            borderColor: [
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 198, 255, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)',
+                'rgba(192, 192, 192, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero: true
+                }
+            }]
+        }
+    }
+});
+
+$.ajax(
+{
+  url:'../model/PHPModelHistoryChart.php',
+  type:'POST',
+  data:
+  {
+  }
+}).done(function(resp)
+{
+  console.log(resp);
+  var Row1 = [];
+  var Row2 = [];
+  var data = JSON.parse(resp);
+  for(var i=0; i<data.length; i++)
+  {
+    Row1.push(data[i][0]);
+    Row2.push(data[i][1]);
+  }
+  var ctx = document.getElementById('myChart').getContext('2d');
+  if (window.grafica)
+  {
+    window.grafica.clear();
+    window.grafica.destroy();
+  }
+  window.grafica = new Chart(ctx,
+  {
+    type: 'line',
+    data: {
+    labels: Row1,
+    datasets: [
+    {
+      label: 'Ganancia',
+      data: Row2,
+      backgroundColor:
+      [
+        'rgba(41, 241, 195, 0.2)'
+      ],
+      borderColor:
+      [
+        'rgba(41, 241, 195, 1)'
+      ],
+      pointRadius: 3,
+      pointBackgroundColor: 'rgba(41, 241, 195, 1)'
+    }
+    ]
+    }
+  });
+});
+
+
+<!-- Barra de progreso con Opciones -->
+<div class="progress">
+  <div class="progress-bar" role="progressbar" style="width: 15%; background-color: #0d6efd;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-secondary" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-success" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-warning" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-light" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+  <div class="progress-bar bg-dark" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+</div>
+<ul class="list-group list-group-horizontal-md">
+  <li class="list-group-item"><i class="fa fa-circle" style="color: #0d6efd;" aria-hidden="true"></i> PHP</li>
+  <li class="list-group-item"><i class="fa fa-circle text-secondary" aria-hidden="true"></i> HTML</li>
+  <li class="list-group-item"><i class="fa fa-circle text-success" aria-hidden="true"></i> JavaScript</li>
+  <li class="list-group-item"><i class="fa fa-circle text-danger" aria-hidden="true"></i> Jquery</li>
+  <li class="list-group-item"><i class="fa fa-circle text-warning" aria-hidden="true"></i> CSS</li>
+  <li class="list-group-item"><i class="fa fa-circle text-info" aria-hidden="true"></i> Visual Basic</li>
+  <li class="list-group-item"><i class="fa fa-circle text-light" aria-hidden="true"></i> Java</li>
+  <li class="list-group-item"><i class="fa fa-circle text-dark" aria-hidden="true"></i> ActionScript</li>
+</ul>
