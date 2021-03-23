@@ -7,9 +7,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Curriculum vitae de Rubén Vargas de la Torre">
-  <meta name="author" content="Rubén Vargas de la Torre">
-  <meta name="generator" content="Rubén 1.0.0">
+  <meta name="description" content="Curriculum vitae de Leticia Maldonado Sierra">
+  <meta name="author" content="Leticia Maldonado Sierra">
+  <meta name="generator" content="Leticia 1.0.0">
   <title>Curriculum vitae</title>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
   <!-- Bootstrap core CSS -->
@@ -74,15 +74,15 @@
     <div class="py-5 px-3 border">
       <div class="row py-1">
         <div class="col-sm border">
-          <img src="images/profile/photo-profile.png" class="rounded float-end" alt="Foto de perfil">
+          <img src="images/profile/photo-profile.jpg" class="rounded float-end" alt="Foto de perfil">
           <h3><i class="fa fa-user" aria-hidden="true"></i> Datos personales.</h3>
-          <label class="p-2">Nombre: Rubén Vargas de la Torre.</label>
+          <label class="p-2">Nombre: Leticia Maldonado Sierra.</label>
           <br>
-          <label class="p-2">Edad: <?php FunctionCalcularAnios('1992-11-20'); ?> años.</label>
+          <label class="p-2">Edad: <?php FunctionCalcularAnios('1993-04-23'); ?> años.</label>
           <br>
-          <label class="p-2">Correo: <a href="mailto:rvtisc92@gmail.com">rvtisc92@gmail.com</a></label>
+          <label class="p-2">Correo: <a href="mailto:lety2304fb@gmail.com">lety2304fb@gmail.com</a></label>
           <br>
-          <label class="p-2">Celular: <a href="https://api.whatsapp.com/send?phone=+524271212216" target="_blank">427-121-22-16</a></label>
+          <label class="p-2">Celular: <a href="https://api.whatsapp.com/send?phone=+524272736470" target="_blank">427-273-64-70</a></label>
           <br>
           <label class="p-2">Formación: Ingeniero en sistemas computacionales (titulado).</label>
           <br>
@@ -96,7 +96,7 @@
           <br>
           <label class="p-2"><a href="https://goo.gl/maps/wG6Jjuq82LhGnmZc6" target="_blank">Instituto Tecnológico de San Juan del Rio.</a></label>
           <br>
-          <label class="p-2">2010 – 2015 (<?php echo FunctionCalcularAnios('2015-11-11'); ?> años de egresado).</label>
+          <label class="p-2">2011 – 2015 (<?php echo FunctionCalcularAnios('2015-11-11'); ?> años de egresado).</label>
         </div>
       </div>
       <div class="row py-1">
@@ -114,37 +114,41 @@
           <h3><i class="fa fa-star" aria-hidden="true"></i> Habilidades y competencias.</h3>
           <ul class="list-group">
             <li class="list-group-item">Trabajo en equipo.</li>
-            <li class="list-group-item">Liderazgo.</li>
+            <li class="list-group-item">Comunicación.</li>
             <li class="list-group-item">Planeación y organización.</li>
-            <li class="list-group-item">Orientación al cliente.</li>
+            <li class="list-group-item">Adaptabilidad.</li>
             <li class="list-group-item">Compromiso responsable.</li>
             <li class="list-group-item">Trabajo bajo alta presión.</li>
             <li class="list-group-item">Autodidacta.</li>
             <li class="list-group-item">Alto sentido de ética con la información.</li>
             <li class="list-group-item">Apego a los procesos de la empresa.</li>
-            <li class="list-group-item">Buena redacción y escritura.</li>
+            <li class="list-group-item">Gestión del tiempo.</li>
           </ul>
         </div>
       </div>
       <div class="row py-1">
         <div class="col-sm border">
           <h3><i class="fa fa-desktop" aria-hidden="true"></i> Experiencia laboral.</h3>
+          <label class="p-2"><a href="https://www.grupoeducare.com/web/" target="_blank">Educare Innovación</a>. Junio 2016 - Junio 2020.</label>
+          <br>
+          <label class="p-2">Proyecto <a href="https://todoged.com/" target="_blank">Iniciativa TODO Digital</a></label>
           <ul class="list-group">
-            <li class="list-group-item">Coordinación de equipo de desarrollo.</li>
-            <li class="list-group-item">Experiencia en programación web.</li>
-            <li class="list-group-item">Conocimientos de la norma ISO-27001 y ISO-9000.</li>
-            <li class="list-group-item">Manejo de ERP (Enterprise Resource Planning).</li>
+            <li class="list-group-item">Experiencia en programación web en línea basados en texto de acuerdo con la marca y las plantillas de la empresa.</li>
+            <li class="list-group-item">Conectar contenido para la creación de libros digitales e impresos.</li>
+            <li class="list-group-item">Aplicar correcciones de contenido por el departamento de redacción.</li>
+            <li class="list-group-item">Resolver incidencias reportadas por el departamento de pruebas de software.</li>
+            <li class="list-group-item">Coordinación de equipo de becarios de desarrollo.</li>
             <li class="list-group-item">Controlador de versiones Git.</li>
-            <li class="list-group-item">Seguridad de la información (Sqlinyection, Cross-site scripting y Contraseñas seguras).</li>
-            <li class="list-group-item">Administración y mantenimiento de Bases de datos Mysql y SQL.</li>
-            <li class="list-group-item">Encriptación de datos (AES-256, MD5, base64 y hash).</li>
-            <li class="list-group-item">Documentación de código y proyectos.</li>
-            <li class="list-group-item">Conocimientos básicos de LINUX.</li>
+            <li class="list-group-item">Manejo de ERP (Enterprise Resource Planning).</li>
             <li class="list-group-item">Conocimientos con los siguientes lenguajes de programación y/o plugins:
               <div class="container">
                 <div class="row">
-                  <div class="col-xl-6"><canvas id="myChart"></canvas></div>
-                  <div class="col-xl-6"><canvas id="myChart2"></canvas></div>
+                  <div class="col-xl-6"><label class="p-2 center">Lenguajes </label>
+                    <canvas id="myChart"></canvas>
+                  </div>
+                  <div class="col-xl-6"><label class="p-2">Conocimiento </label>
+                    <canvas id="myChart2"></canvas>
+                  </div>
                   <div class="col-xl-6"><canvas id="myChart3"></canvas></div>
                 </div>
               </div>
